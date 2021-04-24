@@ -21,7 +21,8 @@ function setup() {
 
 function draw() {
   background(0);
-
+  //mapping the amplitude with the sine wave itself is't that intersting!!
+  // radius = map(sin(angle), -1, 1, 100, 200);
   translate(200, height / 2);
   noFill();
   stroke(255);
